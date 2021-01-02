@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+
+{% block body %}
+
+<h1>Salutations depuis la France !</h1>
+
+<p style="font-size: 1.2rem;">Actuellement, il est {{ 'now'|date('H:i') }} sur votre montre...</p>
+<p style="font-size: .9rem;">À condition que celle-ci soit réglée <i style="color: rgb(12, 78, 131);" class="fas fa-smile-beam"></i></p>
+
+<footer>
+    <p>&copy; Copyright {{'now'|date('Y')}} &middot; <a style="text-decoration: none; color:rgb(36, 90, 93)" href="#">Plus d'infos</a></p>
+</footer>
+
+{% endblock %}

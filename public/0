@@ -1,0 +1,158 @@
+[02-Jan-2021 22:45:09 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 22:45:11 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 22:56:01 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:01:40 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:01:40 Europe/Berlin] [critical] Uncaught PHP Exception Twig\Error\LoaderError: "Unable to find template "pages/home.html.twig" (looked into: E:\Documents\Alpha\queen-city/templates)." at E:\Documents\Alpha\queen-city\vendor\twig\twig\src\Loader\FilesystemLoader.php line 227
+
+[02-Jan-2021 23:02:30 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:02:31 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:02:53 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:05:01 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:05:01 Europe/Berlin] [critical] Uncaught PHP Exception Twig\Error\SyntaxError: "A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?" at E:\Documents\Alpha\queen-city\templates\pages\home.html.twig line 2
+
+[02-Jan-2021 23:05:50 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:05:50 Europe/Berlin] [critical] Uncaught PHP Exception Twig\Error\SyntaxError: "A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?" at E:\Documents\Alpha\queen-city\templates\pages\home.html.twig line 2
+
+[02-Jan-2021 23:06:12 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:06:13 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:06:59 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:07:00 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:07:17 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:07:18 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:07:55 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:07:57 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:09:03 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:09:04 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:12:02 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:12:03 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:12:35 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:12:36 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:15:29 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:15:30 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:15:38 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:15:58 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:16:41 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:16:59 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:17:07 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:19:06 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:19:07 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:20:39 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:20:40 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:21:22 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:21:38 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:21:40 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:21:47 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:24:18 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:24:20 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:24:29 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:27:47 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:27:48 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:27:55 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:28:31 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:28:32 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:31:20 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:31:21 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:31:42 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:31:44 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:31:50 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:32:06 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:32:08 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:32:20 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:32:28 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:32:30 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:33:43 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:33:44 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:35:46 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:35:47 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:36:07 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:36:40 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:36:41 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:37:09 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:37:10 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:37:36 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:37:44 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:37:45 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:38:20 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:38:36 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:38:37 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:38:55 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:42:21 Europe/Berlin] [info] Matched route "app_home".
+
+[02-Jan-2021 23:42:23 Europe/Berlin] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
+[02-Jan-2021 23:52:27 Europe/Paris] [info] Matched route "app_home".
+
+[02-Jan-2021 23:52:28 Europe/Paris] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://127.0.0.1:8000/")" at E:\Documents\Alpha\queen-city\vendor\symfony\http-kernel\EventListener\RouterListener.php line 136
+
