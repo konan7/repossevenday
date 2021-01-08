@@ -1,15 +1,76 @@
 {% extends "base.html.twig" %}
 
+{% block title "Salutations Queen City Météo !"%}
 
 {% block body %}
 
-<h1>Salutations depuis la France !</h1>
+<link rel="shortcut icon" type="image" href="/img/tf1.jpg">
 
-<p style="font-size: 1.2rem;">Actuellement, il est {{ 'now'|date('H:i') }} sur votre montre...</p>
-<p style="font-size: .9rem;">À condition que celle-ci soit réglée <i style="color: rgb(12, 78, 131);" class="fas fa-smile-beam"></i></p>
+<div class="container">
 
-<footer>
-    <p>&copy; Copyright {{'now'|date('Y')}} &middot; <a style="text-decoration: none; color:rgb(36, 90, 93)" href="#">Plus d'infos</a></p>
-</footer>
+    <div class="left">
+        <img class="tf" src="/img/tf.jpg" alt="tour eiffel">
+    </div>
+
+    <div class="right">
+
+        <h1> Salutations depuis Paris ! </h1>
+        <h2 class="h2titre">&laquo; Mes meilleurs voeux pour cette nouvelle année 2021, mes ami(e)s... &raquo;</h2>
+        <p class="heure">Voyez-vous, je me suis lancé l'objectif d'utiliser une API Météo nommée "OpenWeather"</p><br>
+        
+        <p class="heure">Actuellement, il est <span class="visible1"> {{ 'now'|date('H:i') }} </span>sur mon horloge typiquement Française,</p>
+        
+        <p class="heure">et les températures sont extrêmements froides.</p><br>
+        <p class="comment">Et vous ? <span class="visible">Quelle météo avez-vous dans votre Queen City ??? <br><br> Vérifiez ceci avec précision, dans le formulaire ci-dessous</span> <i style="color: rgb(12, 78, 131);" class="fas fa-smile-beam"></i></p><br><br>
+        
+        <i class="fas fa-caret-square-down"></i>
+    </div>
+    <br>
+    
+</div>
+
+<div class="barre"></div>
+<h2 class="h2meteo">QueenCityMétéo</h2><br>
+<h4 class="h2meteo1"><em> Votre Météo sur un plan mondial !</em></h4><br>
+<div class="container-meteo">
+
+    <form>
+        <div>
+            <input class="rechercher" type="text" id="inputCity" placeholder="Ville à chercher">
+        </div>
+        <button class="button" type="submit">Rechercher</button>
+        
+    </form>
+
+
+    <div class="elementsMeteo">
+        
+        <div id="city">Ville</div>
+        <div id="temp">Temps</div>
+        <div id="humidity">Humidité</div>
+        <div id="wind">Vent</div>
+          
+
+    </div>
+    <div class="elementsMeteo1">
+
+        <div id="city">Ville ciblée</div>
+        <div id="temp">Temps en degrés C°</div>
+        <div id="humidity">Humidité (g/m3)</div>
+        <div id="wind">Vitesse du Vent</div>
+    </div><br>
+    <div class="petit" id="img"></div>
+    <div id="phrase" class="phrase"></div><br>
+    
+
+</div>
+
+
+    
+{% endblock %}
+
+{% block javascripts %}
+            
+<script src="/js/app.js" type="text/javascript"></script>
 
 {% endblock %}

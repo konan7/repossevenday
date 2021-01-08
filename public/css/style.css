@@ -1,0 +1,128 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  /*   background-image: url(/img/whi.jpg); */
+}
+.tf{
+    width: 150px;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 255, .2);
+}
+.heure{
+    font-size: 1.2rem;
+}
+.comment{
+    font-size: .9rem;
+}
+.lien-footer{
+    text-decoration: none; color:rgb(36, 90, 93)
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.right{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+/* width: 20%; */
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    text-align: center;  
+}
+.container-meteo{
+    text-align: center;
+    /* height: 90vh; */
+    width: 70%;
+    margin: 0 auto 3rem;
+    background-color: rgb(11, 122, 126);
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+    /* display: flex; */
+}
+.h2meteo{
+    margin-top: 2rem;
+    text-align: center;
+}
+.h2meteo1{
+    text-align: center;
+}
+.barre{
+    border: solid rgba(0, 0, 0, 0.294) 1px;
+    width: 30%;
+    margin: 0 auto 1rem;
+}
+.h2titre{
+    margin-bottom: 2rem;
+}
+.rechercher{
+    width: 40%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.button{
+    background-color: #753213;
+    color: white;
+    padding: .1rem;
+    width: 30%; 
+}
+.button:hover{
+    color: rgb(178, 221, 241);
+}
+.elementsMeteo{
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 1rem;
+    color: white;
+    font-size: x-large;
+    color: rgb(24, 211, 236);
+}
+.elementsMeteo1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 1rem;
+    color: white;
+    font-size: x-large;
+}
+.petit{
+    margin-bottom: .5rem;
+}
+.phrase{
+    margin-bottom: .5rem;
+    color: rgb(255, 251, 0);
+    text-transform: capitalize;
+}
+.visible{
+    color: rgb(153, 60, 7);
+}
+.visible1{
+    color: rgb(11, 122, 126);
+}
+.fa-caret-square-down{
+    font-size: x-large;
+    color: rgb(17, 127, 141);
+}
+footer{
+    margin-bottom: 1rem;
+}
+.pfsmall{
+    width: 80px;
+    display: inline-block;
+}

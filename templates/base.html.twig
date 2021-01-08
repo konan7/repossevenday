@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-        <title>{% block title %}Salutations Queen City !{% endblock %}</title>
+        <link rel="stylesheet" href="/css/style.css">
+        
+        <title>{% block title %}Queen City{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
+        <link rel="shortcut icon" type="image" href="/img/tf1.jpg">
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+
+        <main role="main">
+            {% block body %}{% endblock %}
+        </main>
+
+            <footer class="footer">
+
+                <p>Réalisation: Monsieur YAO Konan Michaël <br>&copy; Copyright {{'now'|date('Y')}} &middot; <a class="lien-footer" href="http://yao-konan.lescigales.org/">Plus d'infos </a></p>
+                <a href="http://yao-konan.lescigales.org/"><img class="pfsmall" src="img/pf.png" alt="img"></a>
+            </footer>
+
+
+            {% block javascripts %}
+            
+            <script src="/js/app.js" type="text/javascript"></script>
+            
+            {% endblock %}
+        
+
     </body>
 </html>
+
