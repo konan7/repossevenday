@@ -132,6 +132,16 @@ footer{
     margin-bottom: .5rem;
 } */
 
+@media screen and (max-width:1140){
+
+    .rechercher{
+        width: 50%;
+    }
+    .button{
+        width: 30%;
+    }
+}
+
 @media screen and (max-width:1024px){
     .elementsMeteo1{
       display: flex; 
@@ -162,10 +172,5 @@ footer{
     .tf{
         width: 100px;
     }
-   .rechercher{
-       width: 100%;
-   }
-   .button{
-       width: 100%;
-   }
+
 }
