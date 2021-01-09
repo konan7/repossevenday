@@ -71,7 +71,7 @@ body{
     margin-bottom: 2rem;
 }
 .rechercher{
-    width: 40%;
+    width: 90%;
     margin: 1rem auto;
     text-align: center;
 }
@@ -79,7 +79,7 @@ body{
     background-color: #753213;
     color: white;
     padding: .1rem;
-    width: 30%; 
+    width: 70%; 
 }
 .button:hover{
     color: rgb(178, 221, 241);
@@ -154,7 +154,7 @@ footer{
         width: 147px;
     }
     main{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 }
@@ -162,4 +162,10 @@ footer{
     .tf{
         width: 100px;
     }
+   .rechercher{
+       width: 100%;
+   }
+   .button{
+       width: 100%;
+   }
 }
