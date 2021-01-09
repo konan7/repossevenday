@@ -27,6 +27,7 @@ body{
     justify-content: center;
     margin-bottom: 1rem;
     padding-top: 1rem;
+    text-align: center;
 }
 .right{
 
@@ -118,6 +119,7 @@ body{
 .fa-caret-square-down{
     font-size: x-large;
     color: rgb(17, 127, 141);
+    margin-top: .5rem;
 }
 footer{
     margin-bottom: 1rem;
@@ -129,3 +131,35 @@ footer{
 /* #quitte{
     margin-bottom: .5rem;
 } */
+
+@media screen and (max-width:1024px){
+    .elementsMeteo1{
+      display: flex; 
+      flex-direction: column;
+    }
+    .elementsMeteo{
+      display: flex; 
+      flex-direction: column;
+    }
+}
+@media screen and (max-width:988px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    } 
+    .tf{
+        
+        display: block;
+        width: 147px;
+    }
+    main{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media screen and(max-width:726px){
+    .tf{
+        width: 100px;
+    }
+}
